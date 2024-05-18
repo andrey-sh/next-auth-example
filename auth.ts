@@ -33,7 +33,7 @@ const config = {
       },
     }),
   ],
-  basePath: "/auth",
+  // basePath: "/auth",
   callbacks: {
     authorized({ request, auth }) {
       const { pathname } = request.nextUrl
