@@ -25,9 +25,6 @@ export default async function Index() {
         to still be available after a few days. It is designed to only
         demonstrate registration, login, and logout briefly.
       </div>
-        <div>
-            {JSON.stringify(process.env, null, 2)}
-        </div>
       <div className="flex flex-col bg-gray-100 rounded-md">
         <div className="p-4 font-bold bg-gray-200 rounded-t-md">
           Current Session
